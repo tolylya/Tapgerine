@@ -1,0 +1,52 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+#main {
+    margin: 25px;
+}
+
+#pallet {
+    margin-top: 10px;
+}
+
+#grid {
+    margin-top: 10px;
+}
+
+.pallet {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.gridItem {
+    display: inline-block;
+    margin: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
