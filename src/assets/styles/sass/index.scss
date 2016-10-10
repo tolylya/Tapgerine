@@ -8,14 +8,16 @@ body {
     min-height: 100%;
     position: relative;
     padding-bottom: 60px;
+    -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none;
 }
 
 #main {
-    margin: 25px;
+    padding: 25px;
 }
 
 #pallet {
     margin-top: 10px;
+
 }
 
 #grid {
@@ -33,6 +35,10 @@ body {
 .gridItem {
     display: inline-block;
     margin: 5px;
+}
+
+.hoverItem {
+    border: 3px solid rgba(0, 239, 251, 0.51);
 }
 
 .red {

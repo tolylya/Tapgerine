@@ -8,18 +8,17 @@
     <!-- pallet -->
     <section class="col-xs-12 col-sm-3" id="pallet">
     	<h2>Pallet</h2>
-    	<div class="pallet red"></div>
-    	<div class="pallet green"></div>
-    	<div class="pallet blue"></div>
-    	<div class="pallet black"></div>
+    	<div class="pallet red dragble"></div>
+    	<div class="pallet green dragble"></div>
+    	<div class="pallet blue dragble"></div>
+    	<div class="pallet black dragble"></div>
     </section>
     <!-- grid -->
     <section class="col-xs-12 col-sm-9" id="grid">
     	<h2>Grid</h2>
     	<div data-ng-repeat="items in grid">
-    		<div data-ng-repeat="item in items" class="pallet gridItem">
-    			
-    		</div>
+        <!-- <grid-item item="item"></grid-item> -->
+    		<div data-ng-repeat="item in items" class="pallet gridItem"></div>
     	</div>
     </section>
 </main>

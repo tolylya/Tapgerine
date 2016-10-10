@@ -23,6 +23,5 @@ import "angular-messages";
 import "angular-aria";
 
 
-
 // local scripts
 //import "../assets/js/...";
